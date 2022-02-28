@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "https://angular-ivy-g1eexa.stackblitz.io", maxAge = 3600)
 @RestController
 @RequestMapping("/lancamento")
 public class LancamentoController implements ControllerInterface<Lancamento>{
