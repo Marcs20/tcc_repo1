@@ -17,5 +17,9 @@ public class Receita extends AbstractEntity{
 
     private String nome;
 
+    private String categoria;
+
     private Float valor;
+
+
 }
